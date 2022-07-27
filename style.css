@@ -1,0 +1,32 @@
+/*---------- google fonts ----------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ----- variables -------- */
+:root{
+    --primary-color:#ff8906;
+    --secondary-color:#000;
+}
+
+/*-------------- reset ------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------ navbar ------- */
+.navbar_area{
+    background-color: var(--primary-color);
+}
+.navbar_items li{
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+}
+
+.navbar_items li:hover{
+    background-color: var(--secondary-color);
+}
