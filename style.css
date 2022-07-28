@@ -16,7 +16,7 @@
 }
 /* ----- common --------- */
 
-.our_popular_courses_container,.ready_to_join_container,.asked_question_container,.brand_container{
+.our_popular_courses_container,.ready_to_join_container,.asked_question_container,.brand_container,.footer_container{
     margin-top: 120px;
 }
 
@@ -64,6 +64,22 @@
     object-fit: cover;
 }
 
+/* ------------ footer--------- */
+.footer_icon_box span a{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background-color: #4A4A4A;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.footer_icon_box span a:hover{
+    background-color: #0DCAF0;
+}
+
 /* ============ responsive ============= */
 @media screen and (min-width:993px) and (max-width:1200px) {
      .carousel-item {
@@ -103,7 +119,7 @@
         height: 400px;
     } 
     .title{
-        font-size: 1.3rem;
+        font-size: 1.75rem;
     }
 
 }
