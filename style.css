@@ -16,7 +16,7 @@
 }
 /* ----- common --------- */
 
-.our_popular_courses_container,.ready_to_join_container,.asked_question_container,.brand_container,.footer_container{
+.our_popular_courses_container,.ready_to_join_container,.asked_question_container,.brand_container,.footer_container,.student_container{
     margin-top: 120px;
 }
 
@@ -28,6 +28,9 @@
 .asked_question_title_box,.course_title_box,.asked_question_area{
     width: 60%;
     margin: 0 auto;
+}
+.student_title_box{
+    width: 60%;
 }
 
 /* ------ navbar ------- */
@@ -105,6 +108,10 @@
     .title{
         font-size: 2rem;
     }
+    .student_title_box{
+        width: 100%;
+    }
+    
 
 }
 
@@ -121,6 +128,10 @@
     .title{
         font-size: 1.75rem;
     }
+    .student_title_box{
+        width: 100%;
+    }
+    
 
 }
 
