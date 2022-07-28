@@ -15,30 +15,22 @@
     font-family: 'Poppins', sans-serif;
 }
 /* ----- common --------- */
-.common_btn{
-    background-color: var(--primary-color);
-}
-.our_popular_courses_container{
+
+.our_popular_courses_container,.ready_to_join_container,.asked_question_container{
     margin-top: 120px;
 }
 
+.title{
+    font-size: 3rem;
+    font-weight: 600;
+}
 
+.asked_question_title_box,.course_title_box{
+    width: 60%;
+    margin: 0 auto;
+}
 
 /* ------ navbar ------- */
-.navbar_area{
-    background-color: var(--primary-color);
-}
-.navbar_items li{
-    transition: all .6s;
-    -webkit-transition: all .6s;
-    -moz-transition: all .6s;
-    -ms-transition: all .6s;
-    -o-transition: all .6s;
-}
-
-.navbar_items li:hover{
-    background-color: var(--secondary-color);
-}
 
 .carousel-item {
     height: 700px;
@@ -63,10 +55,7 @@
 }
 
 /* ------- courses ------------ */
-.course_title_box h2{
-    font-size: 3rem;
-    font-weight: 600;
-}
+
 .card-title{
     font-size: 1.6rem;
     cursor: pointer;
@@ -74,9 +63,7 @@
 .course_box img{
     object-fit: cover;
 }
-.card-text small{
-    color:var(--primary-color)
-}
+
 /* ============ responsive ============= */
 @media screen and (min-width:993px) and (max-width:1200px) {
      .carousel-item {
@@ -87,26 +74,32 @@
 
 
 @media screen and (min-width:577px) and (max-width:992px) {
+    .asked_question_title_box,.course_title_box{
+        width: 100%;
+    }
     .carosel_title{
         font-size: 2.5rem;
     }
     .carousel-item {
         height: 500px;
     } 
-    .course_title_box h2{
+    .title{
         font-size: 2rem;
     }
 
 }
 
 @media screen and (min-width:320px) and (max-width:576px) {
+    .asked_question_title_box,.course_title_box{
+        width: 100%;
+    }
     .carosel_title{
         font-size: 1.25rem;
     }
     .carousel-item {
         height: 400px;
     } 
-    .course_title_box h2{
+    .title{
         font-size: 1.3rem;
     }
 
